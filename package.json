@@ -1,0 +1,26 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor_config.js",
+    "postinstall": "webdriver-manager uodate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiaboshlykVeronika/Cucumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiaboshlykVeronika/Cucumber/issues"
+  },
+  "homepage": "https://github.com/RiaboshlykVeronika/Cucumber#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.7",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.4.4"
+  }
+}
